@@ -1,0 +1,9 @@
+com\example\Project_Recipes\service\RecipeService.class
+com\example\Project_Recipes\exception\GlobalExceptionHandler.class
+com\example\Project_Recipes\repository\RecipeRepository.class
+com\example\Project_Recipes\entity\Recipe.class
+com\example\Project_Recipes\controller\RecipeController.class
+com\example\Project_Recipes\ProjectRecipesApplication.class
+com\example\Project_Recipes\entity\RecipeResponse.class
+com\example\Project_Recipes\AppConfig.class
+com\example\Project_Recipes\config\WebConfig.class
