@@ -96,7 +96,9 @@ All the data has been stored in the H2 Database
 
 Endpoints are tested using the Postman 
  
-The complete data stored in the H2 Database 
+The complete data stored in the H2 Database http://localhost:8080/h2-console
+
+once you enter this link you can Run this query to load all the data that is present in the H2-Database -> Select * from RECIPE 
 
 Method: POST 
 Now when you load up the loadRecipes Endpoint: http://localhost:8080/api/recipes/load 
