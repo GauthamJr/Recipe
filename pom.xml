@@ -30,7 +30,7 @@
 		<java.version>17</java.version>
 		<sonar.projectKey>com.example:Project_Recipes</sonar.projectKey>
 		<sonar.host.url>http://localhost:9000</sonar.host.url>
-                <sonar.login>sqp_40484ebac6c93bc43857463d573ed7e709c99ea9</sonar.login>
+                <sonar.login>sqp_b4d0e4fa9d01d44d3f448edfd580f75d66cbba38</sonar.login>
 	</properties>
 	<dependencies>
 		<dependency>
