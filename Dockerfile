@@ -20,7 +20,7 @@ COPY . .
 RUN mvn clean package -DskipTests
 
 
-# Here we are running Frontend and Backend
+# Running both Frontend and the Backend
 FROM openjdk:17-alpine
 
 WORKDIR /app
@@ -30,7 +30,7 @@ COPY --from=backend-build /app/target/*.jar app.jar
 COPY --from=frontend-build /app /app/src/main/resources/static
 
 # Here we are exposing the port 8080 for the Spring Boot app
-EXPOSE 8080 3000
+EXPOSE 8080
 
 # Here we are running the application
 CMD ["java", "-jar", "app.jar"]
