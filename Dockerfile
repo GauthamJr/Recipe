@@ -20,7 +20,7 @@ COPY . .
 RUN mvn clean package -DskipTests
 
 
-# ====== Final Container (Full Application) ======
+# Here we are running Frontend and Backend
 FROM openjdk:17-alpine
 
 WORKDIR /app
