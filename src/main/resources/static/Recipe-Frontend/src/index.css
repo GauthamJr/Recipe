@@ -47,6 +47,8 @@ body {
 }
 
 .dropdown-item {
+  display: flex;
+  align-items: center;
   padding: 10px;
   cursor: pointer;
   border-bottom: 1px solid #ccc;
@@ -54,6 +56,13 @@ body {
 
 .dropdown-item:hover {
   background-color: #f0f0f0;
+}
+
+.dropdown-image {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  vertical-align: middle;
 }
 
 .image-grid {
