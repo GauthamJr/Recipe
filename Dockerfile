@@ -9,7 +9,7 @@ RUN npm install
 
 COPY src/main/resources/static/Recipe-Frontend ./
 
-# Here we are building the React application
+# Here we are building the Spring Boot backend
 FROM maven:3.8.8-eclipse-temurin-17-alpine AS backend-build
 
 WORKDIR /app
